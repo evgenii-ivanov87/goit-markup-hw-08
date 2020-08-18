@@ -1,0 +1,94 @@
+.comand {
+  background-color: #f5f4fa;
+
+  .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .comand-titel-list {
+    display: flex;
+  }
+}
+
+.comand-titel-item {
+  background-color: #fff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+}
+
+.comand-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  color: $titel-light-color;
+  margin-bottom: 30px;
+}
+
+.comand-titel-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $titel-light-color;
+  margin-bottom: 10px;
+}
+.comand-titel-name-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $titel-dark-color;
+  margin-bottom: 16px;
+}
+
+
+
+
+.comand-link {
+  display: flex;
+  justify-content: space-between;
+  max-width: 206px;
+  padding-left: 32px;
+  margin-right: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.comand-link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+  background-color: $accent-color;
+}
+
+  &:hover .comand-link-img {
+  fill: #fff;
+}
+}
+
+
+.comand-link-img {
+  fill: #757575;
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comand-link {
+  display: flex;
+}
+
+.comand-link-list-item:not(:last-child) {
+  margin-right: 10px;
+}

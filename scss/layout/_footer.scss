@@ -1,0 +1,139 @@
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-wraper {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-adress-link {
+  margin-right: 69px;
+}
+
+.footer-socia-link .comand-link {
+  margin-right: 94px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-adress {
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $backgraoud-color;
+}
+.footer-link-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $backgraoud-color;
+  margin-bottom: 20px;
+}
+.footer-b .footer-social-list {
+  display: flex;
+  margin-right: 94px;
+}
+
+.footer-social-list-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  margin-right: 94px;
+}
+
+.footer-social-link .comand-link {
+  padding-left: 0px;
+}
+
+.footer-label-link:hover,
+.footer-label-link:focus {
+  color: $accent-color;
+}
+
+.footer-btn {
+  display: block;
+  width: 570px;
+
+   .model-form-input-wrapper {
+  display: flex;
+}
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  position: relative;
+  transform: translateX(10px);
+}
+.footer-btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 9px 28px 8px 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: #2196f3;
+  border-radius: 4px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  background-color: #2f303a;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  margin-right: 12px;
+  color: #fff;
+}
+.footer-label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+
+
+/* .footer-form-input:focus + .footer-label,
+.footer-form-input:not(:placeholder-shown) + .footer-label {
+  transform: translateY(-39px);
+  color: $backgraoud-color; */
