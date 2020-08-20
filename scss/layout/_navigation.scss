@@ -1,3 +1,12 @@
+.header-menu {
+  display: none;
+}
+@media screen and (min-width: 481px) {
+  .header-menu {
+    display: flex;
+  }
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -7,8 +16,6 @@
   display: flex;
   padding-left: 0px;
 }
-
-
 
 .navigation-list-link {
   font-style: normal;
@@ -20,19 +27,19 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 32px;
   padding-bottom: 32px;
-  
+
   &:hover,
   &:focus {
-  color: $accent-color;
-}
+    color: $accent-color;
+  }
 }
 
 .navigation-list-item {
   position: relative;
 
-      &:not(:last-child) {
-      margin-right: 50px;
-}
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 .active::after {
   content: '';
@@ -48,15 +55,12 @@
   color: #2196f3;
 }
 
-
 .nav-img {
   width: 16px;
   height: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-  fill: $accent-color;
+    fill: $accent-color;
+  }
 }
-}
-
-
