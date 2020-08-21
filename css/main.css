@@ -55,8 +55,7 @@ ul {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -347,18 +346,50 @@ ul {
   }
 }
 
+.menu-btn {
+  color: #fff;
+  background-color: #fff;
+  border: none;
+}
+
+.menu-close {
+  display: none;
+}
+
+.menu-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  height: 453px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.menu-wrapper.is-open {
+  display: flex;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header-adress {
-  display: flex;
 }
 
 .header-link {
@@ -384,7 +415,7 @@ ul {
 }
 
 .header-link:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 16px;
 }
 
 .header-menu {
@@ -400,11 +431,7 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
-}
-
-.navigation-list {
-  display: flex;
-  padding-left: 0px;
+  text-align: center;
 }
 
 .navigation-list-link {
@@ -415,8 +442,6 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .navigation-list-link:hover, .navigation-list-link:focus {
@@ -428,14 +453,18 @@ ul {
 }
 
 .navigation-list-item:not(:last-child) {
-  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.navigation-list-item:last-child {
+  margin-bottom: 60px;
 }
 
 .active::after {
   content: '';
   display: block;
   position: absolute;
-  transform: translateY(29px);
+  transform: translateY(8px);
   width: 100%;
   height: 4px;
   background-color: #2196f3;
