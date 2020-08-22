@@ -14,11 +14,23 @@
 
   <body>
     <header class="header container">
-      <div class="container">
+      <a class="logo link" href="">
+        <p lang="en"><span class="logo-tittel">Web</span>Studio</p>
+      </a>
+      <button
+        class="menu-btn"
+        type="button"
+        aria-expanded="false"
+        aria-controls="menu-wrapper"
+        data-menu-button
+      >
+        <svg class="header-menu-svg">
+          <use class="menu-icon" href="./images/sprite.svg#icon-menu"></use>
+          <use class="menu-close" href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="menu-wrapper" data-menu>
         <nav class="navigation">
-          <a class="logo link" href="">
-            <p lang="en"><span class="logo-tittel">Web</span>Studio</p>
-          </a>
           <ul class="navigation-list list">
             <li class="navigation-list-item">
               <a class="navigation-list-link link" href="./index.html"
@@ -51,6 +63,9 @@
             +38 096 111 11 11</a
           >
         </address>
+        <!-- <div class="header-menu">
+                   
+              </div> -->
       </div>
     </header>
 
@@ -270,7 +285,7 @@
           <a class="logo link footer-logo" href="">
             <p lang="en"><span class="logo-tittel">Web</span>Studio</p>
           </a>
-          <ul class="list">
+          <ul class="footer-list list">
             <li>
               <address class="footer-adress">
                 <a
@@ -371,5 +386,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
