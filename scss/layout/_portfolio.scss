@@ -44,19 +44,7 @@
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-@media screen and (max-width: 390px) {
-  .main-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-  }
 
-  .main-item-list:not(:last-child) {
-    margin-bottom: 10px;
-  }
-}
 .main-btn {
   font-weight: 500;
   font-size: 16px;
@@ -84,6 +72,12 @@
     border-color: $accent-color;
   }
 }
+.main-item-list {
+  width: calc(100% / 3- 16px);
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
 @media screen and (min-width: 480px) {
   .main-item-list:not(:last-child) {
     margin-right: 8px;

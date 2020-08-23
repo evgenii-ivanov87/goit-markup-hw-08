@@ -11,15 +11,15 @@
   justify-content: center;
 }
 
-/* .client-item-link {
-  margin-right: ;
-} */
+.client-item-link {
+  width: calc(100% / 2 - 30px);
+}
 
 .client-item-link-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 100%;
   height: 90px;
   border: 2px;
   border: 1px solid #afb1b8;
