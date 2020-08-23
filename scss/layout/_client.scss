@@ -19,6 +19,10 @@
   .client-item-link {
     width: calc(100% / 2 - 30px);
 
+    &:not(:nth-child(2n)) {
+      margin-right: 30px;
+    }
+
     &:not(:last-child) {
       margin-bottom: 30px;
     }

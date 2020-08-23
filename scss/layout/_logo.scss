@@ -15,6 +15,16 @@
     // margin-right: 85px;
   }
 }
+
+@media screen and (max-width: 1199px) {
+  .logo {
+    margin-right: 81px;
+  }
+
+  .footer .logo {
+    margin-right: 0px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .logo {
     font-weight: 700;
