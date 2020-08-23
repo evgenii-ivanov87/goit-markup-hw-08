@@ -8,9 +8,10 @@
     // padding-bottom: 94px;
   }
 
-  // .comand-titel-list {
-  //   display: flex;
-  // }
+  .comand-titel-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .comand-titel-item {
