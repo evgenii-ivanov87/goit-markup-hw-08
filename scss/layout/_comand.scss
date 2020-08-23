@@ -52,6 +52,30 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .comand-titel-item {
+    width: calc((100% - 90px) / 4);
+    // letter-spacing: normal;
+    // background-color: red;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .comand {
+    .container {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+
+    .comand-titel-list {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
 .comand-titel {
   font-weight: 700;
   font-size: 28px;

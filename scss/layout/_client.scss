@@ -46,6 +46,18 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .client-item-link {
+    width: calc((100% - 150px) / 6);
+    // letter-spacing: normal;
+    // background-color: red;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
 .client-item-link-list {
   display: flex;
   justify-content: center;
