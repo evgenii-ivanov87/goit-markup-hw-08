@@ -576,7 +576,7 @@ ul {
   .navigation-list-link:hover, .navigation-list-link:focus {
     color: #2196f3;
   }
-  .navigation-list-link .active::after {
+  .active::after {
     content: '';
     display: block;
     position: absolute;
@@ -1222,7 +1222,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .main-jobs-item {
     width: calc(100% / 2 - 30px);
     margin-right: 30px;
