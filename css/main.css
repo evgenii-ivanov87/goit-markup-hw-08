@@ -122,6 +122,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .model-form {
+    width: 528px;
+  }
+}
+
 .model-form-titel {
   font-family: Roboto;
   font-style: normal;
@@ -521,6 +527,17 @@ ul {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-titel {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
 .header-menu {
   display: none;
 }
@@ -654,6 +671,10 @@ ul {
   }
   .description-list:not(:last-child) {
     margin-right: 30px;
+  }
+  .description .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -1032,6 +1053,9 @@ ul {
   .footer-form-input {
     margin-bottom: 0px;
     margin-right: 12px;
+  }
+  .footer-adress-link {
+    margin-right: 69px;
   }
 }
 
