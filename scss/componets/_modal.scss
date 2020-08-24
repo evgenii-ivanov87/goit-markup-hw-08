@@ -21,15 +21,23 @@
   background-color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  .model-form {
+    top: 55%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .model-form {
     width: 450px;
+    top: 55%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .model-form {
     width: 528px;
+    top: 55%;
   }
 }
 
